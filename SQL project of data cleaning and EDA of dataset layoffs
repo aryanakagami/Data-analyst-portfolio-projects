@@ -1,5 +1,5 @@
-                                                                     
-													                                           	-- PROJECT EDA AND DATA CLEANING USING SQL IN MYSQL BY ARYAN --
+-- PROJECT EDA AND DATA CLEANING USING SQL IN MYSQL BY ARYAN --
+
 
 -- This is SQL project in which we are doing both , Data cleaning and EDA
 -- Firstly , we will do Data Cleaning
@@ -242,7 +242,7 @@ FROM layoffs_staging2;
 ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
 
-                                                                                        -- Data cleaning done --
+-- Data cleaning done --
 
 -- Now , let's start EDA
 
@@ -355,12 +355,13 @@ FROM layoffs_ranking
 WHERE ranking <= 5;
 
 -- In the above Complex query , we saw the flow of query as getting total laid off with year -> Created Ranking -> selected top 5 ranks
+-- EDA ends
 
 																                                                       -- EDA ends --
-
+-- Project completed
 															                                                        -- PROJECT ENDS --
                                  
-                                                                                       --  THANK YOU   --
+ --  THANK YOU   --
 
 
 
